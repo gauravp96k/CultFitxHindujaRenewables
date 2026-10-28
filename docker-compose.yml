@@ -1,0 +1,65 @@
+# Production stack for https://benifits.hindujarenewables.com
+#
+#   nginx (frontend image)  :80/:443  -> serves React build, proxies /api -> backend:5000
+#   backend                 internal  -> Express API
+#   mongo                   internal  -> MongoDB (data persisted in the "mongo-data" volume)
+#
+# Only nginx is exposed to the outside world.
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: cultfit-mongo
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - internal
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build: ./backend
+    container_name: cultfit-backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    environment:
+      # These override whatever is in backend/.env for the container
+      NODE_ENV: production
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/cultfit_portal
+      CLIENT_URL: https://benifits.hindujarenewables.com
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks:
+      - internal
+
+  nginx:
+    build:
+      context: ./frontend
+      args:
+        VITE_DARWINBOX_SSO_URL: ${VITE_DARWINBOX_SSO_URL:-}
+    container_name: cultfit-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      # Put fullchain.pem and privkey.pem for benifits.hindujarenewables.com here
+      - ./nginx/certs:/etc/nginx/certs:ro
+      - ./nginx/certbot:/var/www/certbot:ro
+    depends_on:
+      - backend
+    networks:
+      - internal
+
+networks:
+  internal:
+
+volumes:
+  mongo-data:

@@ -1,0 +1,235 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Cult.fit Corporate Portal – Wireframe v3</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial;background:#f4f5f7;color:#222;font-size:14px}
+.wf{position:fixed;top:0;left:0;right:0;background:#111;color:#fff;padding:6px 16px;font-size:12px;z-index:50;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.wf b{color:#ffd400}.wf button{background:#333;color:#fff;border:1px solid #555;border-radius:3px;padding:3px 8px;cursor:pointer;font-size:11px}.wf button.on{background:#ff3278;border-color:#ff3278}
+.page{display:none;padding-top:36px;min-height:100vh}.page.on{display:block}
+.nav{background:#fff;border-bottom:1px solid #ddd;display:flex;align-items:center;justify-content:space-between;padding:10px 28px}
+.logo{font-weight:800;font-size:18px}.logo span{color:#ff3278}
+.nav .m a{margin:0 12px;color:#555;cursor:pointer}.nav .m a.a{color:#ff3278;font-weight:700;border-bottom:2px solid #ff3278;padding-bottom:12px}
+.wrap{max-width:1180px;margin:auto;padding:22px}
+.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:18px}
+.btn{border:1px solid #ff3278;color:#ff3278;background:#fff;border-radius:6px;padding:8px 16px;cursor:pointer;font-weight:600}
+.btn.p{background:#ff3278;color:#fff}.btn.d{border-color:#333;color:#333}.btn.s{padding:4px 10px;font-size:12px}
+select,input,textarea{width:100%;padding:9px;border:1px solid #bbb;border-radius:6px;font-size:13px;margin:4px 0 12px;background:#fff}
+input:disabled{background:#f1f1f4;color:#444}
+label{font-size:12px;font-weight:600;color:#555}.ck{font-weight:400;display:block;margin:6px 0;color:#222;font-size:13px}.ck input{width:auto;margin-right:6px}
+.g{display:grid;gap:16px}.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
+.ann{background:#fff8c4;border:1px dashed #d4a800;border-radius:6px;padding:8px 12px;font-size:12px;margin:10px 0}.ann:before{content:"📝 Wireframe note: ";font-weight:700}
+.chip{display:inline-block;padding:4px 12px;border:1px solid #bbb;border-radius:16px;margin:3px;cursor:pointer;font-size:12px;user-select:none}.chip.on{background:#ff3278;color:#fff;border-color:#ff3278}
+table{width:100%;border-collapse:collapse;font-size:12.5px;background:#fff}th,td{border:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}th{background:#f0f0f3}
+.cmp th{color:#fff;text-align:center;background:#222}.cmp td{text-align:center}.cmp td:first-child{text-align:left;font-weight:600;background:#fafafa;width:210px}
+.pkg{border:1px solid #ddd;border-radius:10px;overflow:hidden;background:#fff}.pkg .h{padding:14px;color:#fff}.pkg .b{padding:14px}
+.price{font-size:22px;font-weight:800}.strike{text-decoration:line-through;color:#999;font-size:12px}
+.gst{display:inline-block;background:#e8f5e9;color:#2e7d32;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px}
+.st{padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700}.s1{background:#e3f0ff;color:#1565c0}.s2{background:#fff3cd;color:#8a6d00}.s3{background:#e8f5e9;color:#2e7d32}.s4{background:#fde2e2;color:#c62828}.s5{background:#eee;color:#555}
+.kpi{text-align:center}.kpi b{font-size:26px;display:block;color:#ff3278}
+.side{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 36px)}
+.sb{background:#1d1d27;color:#ccc;padding:16px 0}.sb a{display:block;padding:10px 20px;cursor:pointer;font-size:13px}.sb a.a{background:#ff3278;color:#fff}
+.hp{display:none}.hp.on{display:block}.bar{height:10px;background:#ff3278;border-radius:4px;margin-bottom:6px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;z-index:60}.modal.on{display:flex}
+.sum td:first-child{color:#666;width:45%}
+</style></head><body>
+
+<div class="wf"><b>WIREFRAME v3</b>
+<button onclick="go('login')">1 Login</button><button onclick="go('home')">2 Home + Packages</button><button onclick="go('compare')">3 Compare</button><button onclick="go('form')">4 Opt-in Form</button><button onclick="go('done')">5 Confirmation</button><button onclick="go('my')">6 My Requests</button><button onclick="go('gyms')">7 Gym Locator</button>
+<span style="margin-left:auto">View:</span><button id="vE" class="on" onclick="go('home')">👤 Employee</button><button id="vH" onclick="go('hr');hr('dash')">🛡 HR Admin</button></div>
+
+<!-- LOGIN -->
+<div class="page" id="login"><div style="display:grid;grid-template-columns:1.2fr 1fr;min-height:calc(100vh - 36px)">
+<div style="background:linear-gradient(135deg,#ff3278,#7b2ff7);color:#fff;padding:60px;display:flex;flex-direction:column;justify-content:center">
+<div class="logo" style="color:#fff;font-size:26px">HREPL <span style="color:#ffd400">×</span> cult.fit</div><h1 style="font-size:38px;margin:20px 0 8px">Corporate Wellness<br>Membership Portal</h1>
+<p>Exclusive corporate pricing on gym & fitness memberships for HREPL employees.</p>
+<div class="g g3" style="margin-top:30px;max-width:540px"><div>🏋 <b>Gym access</b><br><small>ELITE & PRO centres</small></div><div>🧘 <b>Group classes</b><br><small>Yoga, HRX, Boxing</small></div><div>💸 <b>Corporate rates</b><br><small>GST included · payroll deduction</small></div></div></div>
+<div style="display:flex;align-items:center;justify-content:center;padding:40px"><div class="card" style="width:380px">
+<h2 style="margin-top:0">Sign in</h2>
+<button class="btn p" style="width:100%;margin-bottom:10px" onclick="go('home')">🔐 Continue with Darwinbox (SSO)</button>
+<div style="text-align:center;color:#999;font-size:12px;margin:8px 0">— or sign in with official email —</div>
+<label>Official email ID *</label><input placeholder="name@hindujarenewables.com">
+<label>OTP</label><div style="display:flex;gap:8px"><input placeholder="6-digit OTP"><button class="btn s" style="height:38px;margin-top:4px">Send OTP</button></div>
+<button class="btn d" style="width:100%" onclick="go('home')">Login</button>
+<p style="font-size:12px;color:#777">Super Admin and sub-admins are sent to the HR Admin console according to their access.</p></div></div></div>
+<div class="wrap"><div class="ann">Can also be opened from the "Cult.fit Membership" tile in Darwinbox (SSO). Only company-domain emails are allowed. The logged-in email is then used and locked on the opt-in form.</div></div></div>
+
+<!-- HOME -->
+<div class="page" id="home">
+<div class="nav"><div class="logo">HREPL <span>× cult.fit</span></div><div class="m"><a class="a">Home</a><a onclick="go('compare')">Compare</a><a onclick="go('my')">My Requests</a><a onclick="go('gyms')">Gym Locator</a><a onclick="M('pol')">Policy</a></div><div>👤 Prajwal Awate ▾</div></div>
+<div style="background:linear-gradient(90deg,#ff3278,#7b2ff7);color:#fff;padding:26px"><div class="wrap" style="padding:0"><h2 style="margin:0">Find your Cult.fit membership 💪</h2>
+<p style="margin:6px 0 0">Enrolment open: 10 Oct – 31 Oct 2026 · ✅ <b>All prices are inclusive of GST</b> · 💳 Paid through payroll deduction over a fixed period of <b><span class="dpn"></span> months</b></p></div></div>
+<div class="wrap">
+<div class="card"><div class="g" style="grid-template-columns:1fr 2fr auto;align-items:end">
+<div><label>① Select City *</label><select id="city" onchange="render()"><option>Mumbai</option><option>Pune</option><option>Bengaluru</option><option>Delhi NCR</option><option>Hyderabad</option><option>Jaipur</option><option>Chennai</option></select></div>
+<div><label>② Select Duration(s) – pick more than one to compare</label><div id="durs"></div></div>
+<div><button class="btn p" onclick="go('compare')">⇄ Compare selected (<span id="cc">0</span>)</button></div></div></div>
+<h3 id="hdr"></h3><div class="g g3" id="cards"></div>
+<div class="ann">Each card shows the full price, the corporate price (incl. GST), savings, cost per month, inclusions, number of centres and the monthly payroll deduction. The right-hand box on the opt-in page shows the same details.</div></div></div>
+
+<!-- COMPARE -->
+<div class="page" id="compare">
+<div class="nav"><div class="logo">HREPL <span>× cult.fit</span></div><div class="m"><a onclick="go('home')">Home</a><a class="a">Compare</a><a onclick="go('my')">My Requests</a><a onclick="go('gyms')">Gym Locator</a><a onclick="M('pol')">Policy</a></div><div>👤 Prajwal Awate ▾</div></div>
+<div class="wrap"><a style="cursor:pointer;color:#ff3278" onclick="go('home')">← Back to packages</a>
+<h2>Compare packages · <span id="ccity"></span> <span class="gst">All prices incl. GST</span></h2>
+<div class="card" style="padding:12px 16px"><div style="display:flex;gap:30px;flex-wrap:wrap"><div><label>📦 Package filter: </label><span id="pk2"></span></div><div><label>⏱ Duration filter: </label><span id="durs2"></span></div></div></div><br>
+<div style="overflow:auto"><table class="cmp" id="ctab"></table></div>
+<div class="ann">The package filter works like the duration filter. The sheet shows every selected package × duration. "Opt for this" carries the package, duration and city into the form.</div></div></div>
+
+<!-- FORM -->
+<div class="page" id="form">
+<div class="nav"><div class="logo">HREPL <span>× cult.fit</span></div><div class="m"><a onclick="go('home')">Home</a><a onclick="go('compare')">Compare</a><a onclick="go('my')">My Requests</a><a onclick="go('gyms')">Gym Locator</a></div><div>👤 Prajwal Awate ▾</div></div>
+<div class="wrap"><h2>Membership Opt-in Form</h2>
+<div class="g" style="grid-template-columns:2fr 1fr">
+<div class="card"><h3 style="margin-top:0">A. Employee details <small style="color:#888">(🔒 auto-filled from login – cannot be edited)</small></h3>
+<div class="g g2">
+<div><label>Employee ID 🔒</label><input value="HR1234" disabled></div><div><label>Full Name 🔒</label><input value="Prajwal Awate" disabled></div>
+<div><label>Official Email ID 🔒</label><input value="prajwal.awate@hindujarenewables.com" disabled></div><div><label>Work Location 🔒</label><input value="Mumbai – HO" disabled></div>
+<div><label>Mobile (registered on Cult.fit app) *</label><input placeholder="+91 XXXXXXXXXX"></div><div><label>Gender *</label><select><option>Select</option><option>Male</option><option>Female</option><option>Other</option></select></div>
+<div><label>Date of Birth *</label><input type="date"></div><div><label>Already a Cult.fit member? *</label><select><option>No</option><option>Yes – will upgrade / extend</option></select></div>
+<div><label>Emergency contact name *</label><input></div><div><label>Emergency contact number *</label><input></div></div>
+<div class="ann">The email ID is taken from the logged-in session and locked, so no one can submit on behalf of another employee.</div>
+<h3>B. Preferences</h3><div class="g g2">
+<div><label>Preferred centre</label><select><option>Kurla West</option><option>BKC</option><option>Andheri East</option><option>Ghatkopar</option></select></div><div><label>Preferred start date *</label><input type="date"></div>
+<div style="grid-column:1/3"><label>Any health condition to disclose (optional)</label><input></div></div>
+<label>Remarks</label><textarea rows="2"></textarea>
+<h3>C. Declaration</h3>
+<label class="ck"><input type="checkbox"> I have read and accept the <a style="color:#ff3278;cursor:pointer" onclick="M('pol')">Corporate Wellness Policy v1.0</a>. *</label>
+<label class="ck"><input type="checkbox"> I agree to share my name, mobile and email with Cult.fit for activation. *</label>
+<label class="ck"><input type="checkbox"> I authorise payroll deduction of the package amount over the fixed deduction period shown. *</label>
+<label class="ck"><input type="checkbox"> I confirm that I am fit to participate and have received the necessary clearance from a medical practitioner. *</label><br>
+<button class="btn d" onclick="go('compare')">← Back</button> <button class="btn">Save draft</button> <button class="btn p" onclick="go('done')">Submit request</button></div>
+<div class="card" style="align-self:start;position:sticky;top:50px"><h3 style="margin-top:0">Your selected plan</h3><div id="sel"></div><button class="btn s" onclick="go('compare')">Change plan</button>
+<div class="ann">Same details as the package card. Payment is by payroll deduction only, so the form has no payment mode field.</div></div></div></div></div>
+
+<!-- DONE -->
+<div class="page" id="done"><div class="wrap" style="max-width:620px;text-align:center;padding-top:50px"><div class="card">
+<div style="font-size:56px">✅</div><h2>Request submitted!</h2><p>Reference ID <b>CF-2026-00127</b></p><div id="sel2" style="text-align:left"></div>
+<p style="font-size:13px;color:#555">HR will process your request and Cult.fit will SMS your activation link. A confirmation email has been sent to you and HR.</p>
+<button class="btn">⬇ Download acknowledgement</button> <button class="btn p" onclick="go('my')">View my request</button></div></div></div>
+
+<!-- MY -->
+<div class="page" id="my">
+<div class="nav"><div class="logo">HREPL <span>× cult.fit</span></div><div class="m"><a onclick="go('home')">Home</a><a onclick="go('compare')">Compare</a><a class="a">My Requests</a><a onclick="go('gyms')">Gym Locator</a></div><div>👤 Prajwal Awate ▾</div></div>
+<div class="wrap"><h2>My Requests</h2><div class="card" style="max-width:620px"><h3 style="margin-top:0">Request summary</h3><div id="sel3"></div></div></div></div>
+
+<!-- GYMS -->
+<div class="page" id="gyms">
+<div class="nav"><div class="logo">HREPL <span>× cult.fit</span></div><div class="m"><a onclick="go('home')">Home</a><a onclick="go('compare')">Compare</a><a onclick="go('my')">My Requests</a><a class="a">Gym Locator</a></div><div>👤 Prajwal Awate ▾</div></div>
+<div class="wrap"><h2>Gym Locator</h2><div class="g" style="grid-template-columns:1fr 1fr 2fr"><select><option>Mumbai</option><option>Pune</option></select><select><option>All types</option><option>ELITE</option><option>PRO</option></select><input placeholder="🔍 Search area / gym name"></div>
+<table><tr><th>Gym / Centre</th><th>Type</th><th>Area</th><th>City</th><th>Address</th><th>Timings</th><th>Location</th></tr><tbody id="gymE"></tbody></table>
+<div class="ann">Read from the Gym Master that HR uploads (your gym list). "Open in Google Maps" opens the saved link in a new tab.</div></div></div>
+
+<!-- HR -->
+<div class="page" id="hr"><div class="side">
+<div class="sb"><div class="logo" style="color:#fff;padding:0 20px 6px">HR <span>Console</span></div><div style="padding:0 20px 14px;font-size:11px">Logged in: HR Head · <span style="color:#ff8fb3">Super Admin</span></div>
+<a data-h="dash" onclick="hr('dash')">📊 Dashboard</a><a data-h="emp" onclick="hr('emp')">👥 Employee Opt-ins</a><a data-h="rep" onclick="hr('rep')">📑 Consolidated Report</a><a data-h="svc" onclick="hr('svc')">🔄 Service Tracking</a><a data-h="pkg" onclick="hr('pkg')">📦 Packages & Pricing</a><a data-h="gym" onclick="hr('gym')">📍 Gym Master</a><a data-h="pol" onclick="hr('pol')">📄 Policy</a><a data-h="usr" onclick="hr('usr')">🔑 User Access</a><a data-h="aud" onclick="hr('aud')">🧾 Audit Trail</a></div>
+<div style="padding:22px">
+
+<div class="hp" id="h-dash"><h2 style="margin-top:0">Dashboard <small style="font-size:12px;color:#888">Enrolment: 10–31 Oct 2026</small></h2>
+<div class="g g5"><div class="card kpi"><b>312</b>Total opt-ins</div><div class="card kpi"><b>58</b>Pending HR</div><div class="card kpi"><b>210</b>Sent to Cult.fit</div><div class="card kpi"><b>186</b>Active</div><div class="card kpi"><b>₹32.1L</b>Total value (incl. GST)</div></div><br>
+<div class="g g3"><div class="card"><b>Opt-ins by package</b><br><br>ELITE<div class="bar" style="width:80%"></div>PRO<div class="bar" style="width:55%"></div>HOME<div class="bar" style="width:25%"></div></div>
+<div class="card"><b>By duration</b><br><br>12 m<div class="bar" style="width:75%"></div>6 m<div class="bar" style="width:45%"></div>3 m<div class="bar" style="width:20%"></div></div>
+<div class="card"><b>By city</b><br><br>Mumbai<div class="bar" style="width:70%"></div>Pune<div class="bar" style="width:40%"></div>Jaipur<div class="bar" style="width:15%"></div></div></div><br>
+<div class="card"><b>⚠ Needs attention:</b> 58 pending approval · 12 expiring in 30 days · 4 activation issues <button class="btn s p" style="float:right" onclick="hr('emp')">Review</button></div></div>
+
+<div class="hp" id="h-emp"><h2 style="margin-top:0">Employee Opt-ins</h2>
+<div class="g" style="grid-template-columns:2fr 1fr 1fr 1fr 1fr"><input placeholder="🔍 Emp ID / name / email"><select><option>All cities</option></select><select><option>All packages</option></select><select><option>All durations</option></select><select><option>All status</option></select></div>
+<div style="margin-bottom:10px"><button class="btn s p">✔ Approve selected</button> <button class="btn s">✖ Reject</button> <button class="btn s d">📤 Mark sent to Cult.fit</button> <button class="btn s d">⬆ Upload activation file</button> <button class="btn s" style="float:right">⬇ Export Excel</button></div>
+<table><tr><th>☐</th><th>Ref ID</th><th>Emp ID</th><th>Name</th><th>Email</th><th>Location</th><th>Package</th><th>Duration</th><th>City</th><th>Amount (incl. GST)</th><th>Payroll deduction</th><th>Medical fitness ✔</th><th>Request date</th><th>Status</th><th></th></tr><tbody id="rows"></tbody></table>
+<div class="ann">Clicking 👁 opens the full form, the consents with timestamps, and the status history. Every status change is recorded in the Audit Trail.</div></div>
+
+<div class="hp" id="h-rep"><h2 style="margin-top:0">Consolidated Report</h2>
+<div class="card"><div class="g g4"><div><label>Group by</label><select><option>Package × Duration</option><option>City</option><option>Location</option><option>Deduction month</option></select></div><div><label>Period</label><select><option>Oct 2026</option></select></div><div><label>Status</label><select><option>All</option></select></div><div style="align-self:end"><button class="btn p">⬇ Excel</button> <button class="btn">⬇ PDF</button></div></div></div><br>
+<table><tr><th>Package</th><th>Duration</th><th>Mumbai</th><th>Pune</th><th>Bengaluru</th><th>Others</th><th>Total emp.</th><th>Value incl. GST (₹)</th><th>Monthly payroll recovery (₹)</th></tr>
+<tr><td>ELITE</td><td>12 m</td><td>62</td><td>21</td><td>14</td><td>9</td><td><b>106</b></td><td>16,95,894</td><td>5,65,298</td></tr>
+<tr><td>ELITE</td><td>6 m</td><td>28</td><td>10</td><td>6</td><td>4</td><td><b>48</b></td><td>4,31,952</td><td>1,43,984</td></tr>
+<tr><td>PRO</td><td>12 m</td><td>40</td><td>18</td><td>10</td><td>8</td><td><b>76</b></td><td>7,59,924</td><td>2,53,308</td></tr>
+<tr><td>PRO</td><td>3 m</td><td>15</td><td>6</td><td>4</td><td>2</td><td><b>27</b></td><td>80,973</td><td>26,991</td></tr>
+<tr><td>HOME</td><td>12 m</td><td>30</td><td>12</td><td>8</td><td>5</td><td><b>55</b></td><td>1,09,945</td><td>36,648</td></tr>
+<tr style="font-weight:700;background:#fafafa"><td colspan="6">Total</td><td>312</td><td>30,78,688</td><td>10,26,229</td></tr></table><br>
+<div class="g g3"><div class="card"><b>Ready-made downloads</b><br><br><button class="btn s">Cult.fit activation format</button><br><br><button class="btn s">Payroll deduction file</button><br><br><button class="btn s">Finance invoice reconciliation</button></div>
+<div class="card"><b>Location participation</b><br><br>Mumbai HO 72%<div class="bar" style="width:72%"></div>Pune 48%<div class="bar" style="width:48%"></div>Sites 21%<div class="bar" style="width:21%"></div></div>
+<div class="card"><b>Decision support</b><ul style="font-size:12px;padding-left:16px"><li>312 opt-ins → negotiate the next volume slab with Cult.fit</li><li>Low uptake in Jaipur → check centre availability</li><li>1,240 not enrolled → send a reminder</li></ul></div></div></div>
+
+<div class="hp" id="h-svc"><h2 style="margin-top:0">Service Tracking</h2>
+<div class="g g4"><div class="card kpi"><b>186</b>Active</div><div class="card kpi"><b>12</b>Expiring in 30 days</div><div class="card kpi"><b>4</b>Activation issues</div><div class="card kpi"><b>3</b>Exited (to cancel / recover)</div></div><br>
+<table><tr><th>Employee</th><th>Package</th><th>Cult.fit Member ID</th><th>Activated</th><th>Expiry</th><th>Payroll deduction</th><th>Issue</th><th>Status</th><th>Action</th></tr>
+<tr><td>HR1234 Prajwal A.</td><td>ELITE 12m</td><td>CF88231</td><td>15-Oct-26</td><td>14-Oct-27</td><td>1 of 3 done</td><td>—</td><td><span class="st s3">Active</span></td><td><button class="btn s">View</button></td></tr>
+<tr><td>HR2201 Employee B</td><td>PRO 3m</td><td>CF88302</td><td>01-Aug-26</td><td>31-Oct-26</td><td>3 of 3 done</td><td>—</td><td><span class="st s2">Expiring</span></td><td><button class="btn s">Send renewal reminder</button></td></tr>
+<tr><td>HR3307 Employee C</td><td>ELITE 6m</td><td>—</td><td>—</td><td>—</td><td>On hold</td><td>Mobile mismatch</td><td><span class="st s4">Issue</span></td><td><button class="btn s">Resolve</button></td></tr>
+<tr><td>HR4410 Employee D</td><td>PRO 12m</td><td>CF88119</td><td>10-Jul-26</td><td>09-Jul-27</td><td>Recover balance in F&F</td><td>Exited (Darwinbox)</td><td><span class="st s5">To cancel</span></td><td><button class="btn s">Notify Cult.fit</button></td></tr></table></div>
+
+<div class="hp" id="h-pkg"><h2 style="margin-top:0">Packages & Pricing</h2>
+<div class="card" style="padding:12px"><label>Fixed payroll deduction period (applies to all)</label><select style="width:200px"><option>3 months</option><option>6 months</option></select> <span class="gst">Prices entered incl. GST</span></div><br>
+<button class="btn p s">+ Add package</button> <button class="btn s">⬆ Bulk upload rate card (Excel)</button><br><br>
+<table><tr><th>Package</th><th>Duration</th><th>MRP</th><th>Corporate price (incl. GST)</th><th>Inclusions</th><th>Cities</th><th>Active</th><th></th></tr><tbody id="prow"></tbody></table></div>
+
+<div class="hp" id="h-gym"><h2 style="margin-top:0">Gym Master</h2>
+<button class="btn p s">⬆ Bulk upload gym list (Excel)</button> <button class="btn s">⬇ Download template</button> <button class="btn s d">+ Add gym</button><br>
+<div class="ann">Template columns: Gym name · Type (ELITE / PRO) · Area · City · Address · Timings · Google Maps link · Active (Y/N). Uploads are checked for duplicate rows and invalid links. This list feeds the employee Gym Locator, the centre count and the preferred-centre dropdown.</div>
+<table><tr><th>Gym / Centre</th><th>Type</th><th>Area</th><th>City</th><th>Address</th><th>Google Maps link</th><th>Active</th><th></th></tr><tbody id="gymH"></tbody></table></div>
+
+<div class="hp" id="h-pol"><h2 style="margin-top:0">Policy Management</h2><button class="btn p s">⬆ Upload new version</button><br><br>
+<table><tr><th>Document</th><th>Version</th><th>Effective</th><th>Approved by</th><th>Acknowledged</th><th>Status</th></tr><tr><td>Corporate Wellness Policy</td><td>v1.0</td><td>10-Oct-26</td><td>CHRO</td><td>312 / 312</td><td><span class="st s3">Published</span></td></tr><tr><td>Cult.fit Corporate T&C</td><td>v1.0</td><td>10-Oct-26</td><td>Legal</td><td>312 / 312</td><td><span class="st s3">Published</span></td></tr></table>
+<div class="ann">Uploading a new version archives the old one (it is never deleted).</div></div>
+
+<div class="hp" id="h-usr"><h2 style="margin-top:0">User Access Management</h2>
+<button class="btn p s" onclick="M('addu')">+ Add sub-admin</button><br><br>
+<table><tr><th>Name</th><th>Emp ID</th><th>Role</th><th>View opt-ins</th><th>Approve / reject</th><th>Reports & export</th><th>Service tracking</th><th>Packages & gyms</th><th>Policy</th><th>User access</th><th>Status</th><th></th></tr>
+<tr><td>HR Head</td><td>HR0001</td><td><span class="st s4">Super Admin</span></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td><span class="st s3">Active</span></td><td>—</td></tr>
+<tr><td>HR Executive 1</td><td>HR0045</td><td><span class="st s1">Sub-admin</span></td><td>✔</td><td>✔</td><td>✔</td><td>✔</td><td>✖</td><td>✖</td><td>✖</td><td><span class="st s3">Active</span></td><td>✎ 🚫</td></tr>
+<tr><td>HR Executive 2</td><td>HR0078</td><td><span class="st s1">Sub-admin</span></td><td>✔</td><td>✖</td><td>✔</td><td>✖</td><td>✖</td><td>✖</td><td>✖</td><td><span class="st s3">Active</span></td><td>✎ 🚫</td></tr>
+<tr><td>Payroll SPOC</td><td>FN0102</td><td><span class="st s5">Sub-admin (view)</span></td><td>✔</td><td>✖</td><td>Payroll file only</td><td>✖</td><td>✖</td><td>✖</td><td>✖</td><td><span class="st s3">Active</span></td><td>✎ 🚫</td></tr></table>
+<div class="ann">There is only one Super Admin, who has full access and is the only role that can add, edit or disable sub-admins. Sub-admins only see the modules they are given. Every access change is recorded in the Audit Trail.</div></div>
+
+<div class="hp" id="h-aud"><h2 style="margin-top:0">Audit Trail</h2>
+<div class="g g4"><input placeholder="🔍 User / Ref ID"><select><option>All actions</option><option>Submitted</option><option>Approved</option><option>Exported</option><option>Price changed</option><option>Access changed</option><option>Gym list uploaded</option></select><input type="date"><button class="btn s" style="height:38px;margin-top:4px">⬇ Export log</button></div>
+<table><tr><th>Timestamp</th><th>User</th><th>Role</th><th>Action</th><th>Record</th><th>Old → New</th></tr>
+<tr><td>10-Oct-26 14:05</td><td>HR1234</td><td>Employee</td><td>Submitted opt-in (4 declarations accepted)</td><td>CF-127</td><td>— → Submitted</td></tr>
+<tr><td>12-Oct-26 10:11</td><td>HR0045</td><td>Sub-admin</td><td>Approved</td><td>CF-127</td><td>Submitted → Approved</td></tr>
+<tr><td>12-Oct-26 10:30</td><td>HR0045</td><td>Sub-admin</td><td>Exported report</td><td>Cult.fit format (58 rows)</td><td>—</td></tr>
+<tr><td>12-Oct-26 11:00</td><td>HR0001</td><td>Super Admin</td><td>Access changed</td><td>HR0078</td><td>Approve: ✔ → ✖</td></tr>
+<tr><td>13-Oct-26 09:00</td><td>HR0001</td><td>Super Admin</td><td>Gym list uploaded</td><td>142 gyms</td><td>—</td></tr></table>
+<div class="ann">Read-only and cannot be deleted.</div></div>
+</div></div></div>
+
+<div class="modal" id="addu"><div class="card" style="width:520px"><h3 style="margin-top:0">Add sub-admin</h3><label>Employee (search from Darwinbox)</label><input placeholder="🔍 Name / Emp ID"><label>Role</label><select><option>Sub-admin</option><option>Sub-admin (view only)</option></select>
+<label>Module permissions</label>
+<label class="ck"><input type="checkbox" checked> View opt-ins</label><label class="ck"><input type="checkbox"> Approve / reject opt-ins</label><label class="ck"><input type="checkbox"> Reports & export</label><label class="ck"><input type="checkbox"> Service tracking</label><label class="ck"><input type="checkbox"> Packages & Gym Master</label><label class="ck"><input type="checkbox"> Policy management</label><br>
+<button class="btn d" onclick="X('addu')">Cancel</button> <button class="btn p" onclick="X('addu')">Save</button></div></div>
+<div class="modal" id="pol" onclick="X('pol')"><div class="card" style="width:640px"><h3>Corporate Wellness Policy v1.0</h3><div style="height:260px;background:#f0f0f0;display:flex;align-items:center;justify-content:center;color:#888">PDF viewer – eligibility, payroll deduction, cancellation, exit recovery, medical fitness, data privacy</div><br><button class="btn">⬇ Download</button> <button class="btn p">✔ I acknowledge</button></div></div>
+
+<script>
+const DP=3,D=[1,3,6,12];
+const P={ELITE:{c:'#ff3278',mrp:{1:2500,3:6500,6:13000,12:24000},cp:{1:1999,3:4499,6:8999,12:15999},inc:'All ELITE + PRO gyms, unlimited group classes, online workouts',cls:'Unlimited',gym:'All ELITE & PRO',pause:{1:'—',3:'7 days',6:'15 days',12:'30 days'},guest:{1:'—',3:'1',6:'2',12:'4'},ctr:85},
+PRO:{c:'#7b2ff7',mrp:{1:1600,3:4200,6:8000,12:15000},cp:{1:1299,3:2999,6:5499,12:9999},inc:'All PRO gyms, 2 ELITE sessions / month, online workouts',cls:'2 / month',gym:'PRO gyms only',pause:{1:'—',3:'7 days',6:'10 days',12:'20 days'},guest:{1:'—',3:'—',6:'1',12:'2'},ctr:120},
+HOME:{c:'#0a9d8f',mrp:{1:400,3:1000,6:1800,12:3000},cp:{1:299,3:699,6:1199,12:1999},inc:'Live & recorded online workouts, yoga, meditation',cls:'Online only',gym:'—',pause:{1:'—',3:'—',6:'—',12:'—'},guest:{1:'—',3:'—',6:'—',12:'—'},ctr:'Online'}};
+const G=[['cult ELITE Kurla West','ELITE','Kurla West','Mumbai','LBS Marg, Kurla West','6 AM – 10 PM'],['cult PRO BKC','PRO','BKC','Mumbai','G Block, Bandra Kurla Complex','6 AM – 11 PM'],['cult ELITE Andheri','ELITE','Andheri East','Mumbai','Chakala, Andheri East','6 AM – 10 PM'],['cult PRO Ghatkopar','PRO','Ghatkopar West','Mumbai','LBS Marg, Ghatkopar West','6 AM – 10 PM'],['cult ELITE Baner','ELITE','Baner','Pune','Baner Road, Pune','6 AM – 10 PM']];
+let sd=[6,12],sp=new Set(['ELITE','PRO','HOME']),cmp=new Set(['ELITE|12','PRO|12','ELITE|6','PRO|6']),pick=['ELITE',12];
+const f=n=>'₹'+n.toLocaleString('en-IN'),off=(p,d)=>Math.round((1-P[p].cp[d]/P[p].mrp[d])*100),ded=(p,d)=>f(Math.round(P[p].cp[d]/DP));
+function go(id){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('on',p.id==id));vE.classList.toggle('on',id!='hr');vH.classList.toggle('on',id=='hr');scrollTo(0,0);render()}
+function hr(x){document.querySelectorAll('.hp').forEach(p=>p.classList.toggle('on',p.id=='h-'+x));document.querySelectorAll('.sb a').forEach(a=>a.classList.toggle('a',a.dataset.h==x))}
+function M(i){document.getElementById(i).classList.add('on')}function X(i){document.getElementById(i).classList.remove('on')}
+function tg(d){sd=sd.includes(d)?sd.filter(x=>x!=d):[...sd,d].sort((a,b)=>a-b);Object.keys(P).forEach(k=>sd.includes(d)?cmp.add(k+'|'+d):cmp.delete(k+'|'+d));render()}
+function tp(k){sp.has(k)?sp.delete(k):sp.add(k);render()}
+function tc(k){cmp.has(k)?cmp.delete(k):cmp.add(k);render()}
+function opt(p,d){pick=[p,+d];go('form')}
+function summary(date){const[p,d]=pick,c=city.value;return`<table class="sum">${date?`<tr><td>Reference ID</td><td><b>CF-2026-00127</b></td></tr>`:''}<tr><td>Package</td><td><b>cultpass ${p}</b></td></tr><tr><td>Duration</td><td>${d} month${d>1?'s':''}</td></tr><tr><td>City</td><td>${c}</td></tr><tr><td>MRP</td><td><s>${f(P[p].mrp[d])}</s></td></tr><tr><td>Corporate price</td><td><b style="color:#ff3278;font-size:16px">${f(P[p].cp[d])}</b> <span class="gst">incl. GST</span></td></tr><tr><td>You save</td><td>${f(P[p].mrp[d]-P[p].cp[d])} (${off(p,d)}%)</td></tr><tr><td>Effective / month</td><td>${f(Math.round(P[p].cp[d]/d))}</td></tr><tr><td>Inclusions</td><td>${P[p].inc}</td></tr><tr><td>Centres in ${c}</td><td>${P[p].ctr}</td></tr><tr><td>Payroll deduction</td><td>${ded(p,d)} × ${DP} months (fixed)</td></tr>${date?`<tr><td>Request date</td><td><b>10-Oct-2026</b></td></tr>`:''}</table><br>`}
+function render(){const c=city.value;
+document.querySelectorAll('.dpn').forEach(e=>e.textContent=DP);
+const dc=D.map(d=>`<span class="chip ${sd.includes(d)?'on':''}" onclick="tg(${d})">${d} month${d>1?'s':''}</span>`).join('');durs.innerHTML=durs2.innerHTML=dc;
+pk2.innerHTML=Object.keys(P).map(k=>`<span class="chip ${sp.has(k)?'on':''}" onclick="tp('${k}')">cultpass ${k}</span>`).join('');
+ccity.textContent=c;cc.textContent=cmp.size;hdr.textContent=`${Object.keys(P).length*sd.length} packages available in ${c}`;
+cards.innerHTML=Object.entries(P).flatMap(([k,v])=>sd.map(d=>`<div class="pkg"><div class="h" style="background:${v.c}"><b>cultpass ${k}</b> · ${d} month${d>1?'s':''}</div><div class="b"><span class="strike">MRP ${f(v.mrp[d])}</span> <span class="st s3">${off(k,d)}% off</span><div class="price">${f(v.cp[d])}</div><span class="gst">✔ Inclusive of GST</span>
+<table class="sum" style="margin-top:10px"><tr><td>You save</td><td>${f(v.mrp[d]-v.cp[d])}</td></tr><tr><td>Effective / month</td><td>${f(Math.round(v.cp[d]/d))}</td></tr><tr><td>Payroll deduction</td><td>${ded(k,d)} × ${DP} m</td></tr><tr><td>Inclusions</td><td>${v.inc}</td></tr><tr><td>Centres in ${c}</td><td>${v.ctr}</td></tr></table><br>
+<label class="ck"><input type="checkbox" ${cmp.has(k+'|'+d)?'checked':''} onchange="tc('${k}|${d}')"> Add to compare</label><button class="btn s" onclick="go('compare')">Compare</button> <button class="btn s p" onclick="opt('${k}',${d})">Opt for this</button></div></div>`)).join('');
+const cols=[...cmp].map(x=>x.split('|')).filter(x=>sp.has(x[0])&&sd.includes(+x[1])).sort((a,b)=>a[1]-b[1]||a[0].localeCompare(b[0]));
+const R=[['Duration',(p,d)=>d+' months'],['MRP',(p,d)=>`<s>${f(P[p].mrp[d])}</s>`],['Corporate price (incl. GST)',(p,d)=>`<b style="color:#ff3278;font-size:16px">${f(P[p].cp[d])}</b>`],['GST',()=>'✔ Included'],['You save',(p,d)=>f(P[p].mrp[d]-P[p].cp[d])+` (${off(p,d)}%)`],['Effective / month',(p,d)=>f(Math.round(P[p].cp[d]/d))],['Payroll deduction (fixed)',(p,d)=>ded(p,d)+' × '+DP+' months'],['Gym access',p=>P[p].gym],['Group classes',p=>P[p].cls],['Online workouts',()=>'✔ Unlimited'],['Centres in '+c,p=>P[p].ctr],['Membership pause',(p,d)=>P[p].pause[d]],['Guest passes',(p,d)=>P[p].guest[d]],['Transferable',()=>'✖'],['Cancellation',()=>'Before activation only'],['Validity starts',()=>'From activation date']];
+ctab.innerHTML=cols.length?`<tr><th>Feature</th>${cols.map(([p,d])=>`<th style="background:${P[p].c}">${p}<br><small>${d} months</small><br><span style="cursor:pointer;font-size:11px" onclick="tc('${p}|${d}')">✕ remove</span></th>`).join('')}</tr>`+R.map(([n,fn])=>`<tr><td>${n}</td>${cols.map(([p,d])=>`<td>${fn(p,+d)}</td>`).join('')}</tr>`).join('')+`<tr><td></td>${cols.map(([p,d])=>`<td><button class="btn p s" onclick="opt('${p}',${d})">Opt for this</button></td>`).join('')}</tr>`:'<tr><td>Select at least one package and duration to compare</td></tr>';
+sel.innerHTML=summary(0);sel2.innerHTML=summary(0);sel3.innerHTML=summary(1);
+const st=[['Submitted','s1'],['HR Approved','s2'],['Sent to Cult.fit','s2'],['Active','s3'],['Rejected','s4']],nm=['Prajwal Awate','Ananya S.','Aditya N.','Saurabh K.','Hrishikesh G.','Employee F','Employee G','Employee H'],ct=['Mumbai','Pune','Bengaluru','Jaipur'],pk=['ELITE','PRO','HOME'];
+rows.innerHTML=nm.map((n,i)=>{const p=pk[i%3],d=D[(i+3)%4],s=st[i%5];return`<tr><td>☐</td><td>CF-${127+i}</td><td>HR${1234+i*7}</td><td>${n}</td><td>${n.split(' ')[0].toLowerCase()}@…</td><td>${ct[i%4]}</td><td>${p}</td><td>${d} m</td><td>${ct[i%4]}</td><td>${f(P[p].cp[d])}</td><td>${ded(p,d)} × ${DP}</td><td>✔</td><td>${10+i%3}-Oct-26</td><td><span class="st ${s[1]}">${s[0]}</span></td><td>👁 ✔ ✖</td></tr>`}).join('');
+prow.innerHTML=Object.entries(P).flatMap(([k,v])=>D.map(d=>`<tr><td>${k}</td><td>${d} m</td><td>${f(v.mrp[d])}</td><td>${f(v.cp[d])}</td><td>${v.inc}</td><td>Mumbai, Pune +5</td><td>🟢</td><td>✎ 🗑</td></tr>`)).join('');
+const mp=g=>`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(g[0]+' '+g[4])}`;
+gymE.innerHTML=G.map(g=>`<tr><td>${g[0]}</td><td>${g[1]}</td><td>${g[2]}</td><td>${g[3]}</td><td>${g[4]}</td><td>${g[5]}</td><td><a style="color:#ff3278" href="${mp(g)}" target="_blank">📍 Open in Google Maps</a></td></tr>`).join('');
+gymH.innerHTML=G.map(g=>`<tr><td>${g[0]}</td><td>${g[1]}</td><td>${g[2]}</td><td>${g[3]}</td><td>${g[4]}</td><td><a style="color:#ff3278" href="${mp(g)}" target="_blank">maps link ↗</a></td><td>🟢</td><td>✎ 🗑</td></tr>`).join('')}
+go('login');
+</script></body></html>

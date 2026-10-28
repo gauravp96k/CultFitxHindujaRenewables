@@ -1,0 +1,1850 @@
+[
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Ahmedabad",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Ahmedabad",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Amritsar",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Amritsar",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Bathinda",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Bathinda",
+  "corporatePriceInclGst": 15500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Belgaum",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Belgaum",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 5900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 7900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 7000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Bengaluru",
+  "corporatePriceInclGst": 9900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Bhopal",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Bhopal",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Bhubaneswar",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Bhubaneswar",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Bikaner",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Bikaner",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Chandigarh",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Chandigarh",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Chennai",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Chennai",
+  "corporatePriceInclGst": 11900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Coimbatore",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Coimbatore",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Dehradun",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Dehradun",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 8000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 9100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Delhi NCR",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 7000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 9000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 8100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Hyderabad",
+  "corporatePriceInclGst": 10100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Indore",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Indore",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Jaipur",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Jaipur",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Jammu",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Jammu",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Jamshedpur",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Jamshedpur",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Jodhpur",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Jodhpur",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Kanpur",
+  "corporatePriceInclGst": 12000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Kanpur",
+  "corporatePriceInclGst": 16000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Kochi",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Kochi",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Kolkata",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Kolkata",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Lucknow",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Lucknow",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Ludhiana",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Ludhiana",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Mangalore",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Mangalore",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Meerut",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Meerut",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Morbi",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Morbi",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 8000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 12000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 16000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 9100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Mumbai",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Mysore",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Mysore",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Mysore",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Mysore",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Nagpur",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Nagpur",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Nashik",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Nashik",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 7000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 9000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 11900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 8100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Navi Mumbai & Thane",
+  "corporatePriceInclGst": 10100,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Patna",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Patna",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Phalodi",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Phalodi",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 6,
+  "city": "Pune",
+  "corporatePriceInclGst": 5900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO",
+  "tier": "PRO",
+  "durationMonths": 12,
+  "city": "Pune",
+  "corporatePriceInclGst": 7900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO"
+  ],
+  "inclusions": "Access to cult PRO gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Pune",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Pune",
+  "corporatePriceInclGst": 11900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 6,
+  "city": "Pune",
+  "corporatePriceInclGst": 7000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass PRO + OnePass",
+  "tier": "PRO_ONEPASS",
+  "durationMonths": 12,
+  "city": "Pune",
+  "corporatePriceInclGst": 9900,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult PRO gyms + OnePass partner gyms",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Raipur",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Raipur",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Rajkot",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Rajkot",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Ranchi",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Ranchi",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Rudrapur",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Rudrapur",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Surat",
+  "corporatePriceInclGst": 9500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Surat",
+  "corporatePriceInclGst": 12500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Tiruvallur",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Tiruvallur",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 6,
+  "city": "Tumkur",
+  "corporatePriceInclGst": 8800,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE",
+  "tier": "ELITE",
+  "durationMonths": 12,
+  "city": "Tumkur",
+  "corporatePriceInclGst": 11000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres",
+  "b2bExclusive": false,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Vadodara",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Vadodara",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 6,
+  "city": "Varanasi",
+  "corporatePriceInclGst": 8500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "OnePass",
+  "tier": "ONEPASS",
+  "durationMonths": 12,
+  "city": "Varanasi",
+  "corporatePriceInclGst": 10000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ONEPASS"
+  ],
+  "inclusions": "Access to OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 6,
+  "city": "Visakhapatnam",
+  "corporatePriceInclGst": 11500,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ },
+ {
+  "packageName": "cultpass ELITE + OnePass",
+  "tier": "ELITE_ONEPASS",
+  "durationMonths": 12,
+  "city": "Visakhapatnam",
+  "corporatePriceInclGst": 15000,
+  "mrp": null,
+  "platformFee": 80,
+  "gymAccess": [
+   "ELITE",
+   "PRO",
+   "ONEPASS"
+  ],
+  "inclusions": "Access to cult ELITE & PRO centres + OnePass partner gyms",
+  "b2bExclusive": true,
+  "isActive": true
+ }
+]
