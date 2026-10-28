@@ -10,9 +10,15 @@ const authLimiter = rateLimit({
   message: { error: 'Too many login attempts. Please try again later.' }
 });
 
+// General per-IP limit across the API. A whole office shares one public IP, so this
+// is sized for many people at once; set API_LIMIT_PER_IP in .env to tune it.
+const apiLimitMax = Number.parseInt(process.env.API_LIMIT_PER_IP, 10);
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
-  max: 300
+  max: Number.isFinite(apiLimitMax) && apiLimitMax > 0 ? apiLimitMax : 3000,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many requests from this network. Please wait a few minutes and try again.' },
 });
 
 const corsOptions = {
